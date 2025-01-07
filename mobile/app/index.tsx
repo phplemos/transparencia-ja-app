@@ -1,11 +1,11 @@
 import { Link, Stack } from "expo-router";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Image } from "react-native";
 
-export default function SplashScreen() {
+export default function Home() {
   return (
     <>
       <View style={styles.container}>
-        <Text>Transparencia ja!</Text>
+        <Text>Funciona!</Text>
       </View>
     </>
   );
