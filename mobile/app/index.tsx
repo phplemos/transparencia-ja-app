@@ -1,25 +1,12 @@
-import { Link, Stack } from "expo-router";
-import { StyleSheet, Text, View, Image } from "react-native";
+import { Text, View } from "react-native";
 
 export default function Home() {
   return (
     <>
-      <View style={styles.container}>
+      <View className={"flex items-center justify-center w-full h-full bg-white"}>
         <Text>Funciona!</Text>
       </View>
     </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 20,
-  },
-  link: {
-    marginTop: 15,
-    paddingVertical: 15,
-  },
-});
