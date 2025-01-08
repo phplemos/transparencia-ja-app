@@ -1,7 +1,13 @@
-import { Text, View } from "react-native";
+import { View, Button } from "react-native";
 import FormInputs from "@/components/FormInputs";
+import { router } from "expo-router";
 
 export default function Login() {
+
+  function handleLogin(){
+    router.push("/(auth)/home");
+  }
+
   return (
     <>
       <View
@@ -9,7 +15,7 @@ export default function Login() {
       >
         <FormInputs formName="Email" />
         <FormInputs formName="Senha" />
-
+        <Button title="Enviar" onPress={handleLogin}/>
       </View>
     </>
   );
