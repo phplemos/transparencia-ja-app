@@ -8,6 +8,7 @@ export default function RootLayout() {
     <Stack >
       <Stack.Screen name="index" options={{ headerShown: false }} />
       <Stack.Screen name="cadastro" />
+      <Stack.Screen name="recuperar-senha" options={{title:"Recuperar Senha!"}}/>
       <Stack.Screen name="(auth)" options={{headerShown:false}}/>
     </Stack>
   );
