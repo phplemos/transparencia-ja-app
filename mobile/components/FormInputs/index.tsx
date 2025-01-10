@@ -7,7 +7,7 @@ export default function FormInputs(props: FormInputsProps) {
   return (
     <>
       <View
-        className={"flex items-center gap-2 justify-center w-[90%] h-24"}
+        className={"flex items-center gap-2 justify-center w-[90%] h-24 m-2"}
       >
         <View className={"flex w-full items-start "}>
           <Text className={"text-blue-700 text-1"}>{props.formName}</Text>
